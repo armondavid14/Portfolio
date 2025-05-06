@@ -1,7 +1,7 @@
 #toolbar {
     text-align: left;
     text-decoration:none;
-    color: white;
+    color: rgb(226, 218, 218);
     padding: 15px;
 }
 
@@ -17,9 +17,9 @@ h4 {
     display: flexbox;
     gap: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
     text-decoration:none;
     background-color: #4321a1;
-    color: white;
 	padding:10px;
 }
 #wrapper {
