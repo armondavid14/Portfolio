@@ -12,8 +12,11 @@ h4 {
 }
 
 nav {
+    display: flexbox;
+    gap: 5px;
     text-decoration:none;
-    background-color: #bebcbc;
+    background-color: #4321a1;
+    color: aliceblue;
 	padding:10px;
 }
 #wrapper {
@@ -29,6 +32,7 @@ nav {
 }
 
 body {
+    font-size: medium;
     background-color: skyblue;
     padding: 20px;
 }
