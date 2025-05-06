@@ -1,5 +1,6 @@
 #toolbar {
     text-align: left;
+    text-decoration:none;
     padding: 15px;
 }
 
@@ -16,7 +17,7 @@ nav {
     gap: 5px;
     text-decoration:none;
     background-color: #4321a1;
-    color: aliceblue;
+    color: white;
 	padding:10px;
 }
 #wrapper {
