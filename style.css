@@ -10,6 +10,7 @@ body {
 }
 
 #toolbar {
+    text-align: center;
     text-decoration:none;
     color: rgb(226, 218, 218);
     padding: 15px;
