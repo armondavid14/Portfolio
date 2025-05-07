@@ -70,5 +70,6 @@ ul {
     nav a {display:block;
 		padding:.2em;
 		font-size:1.4em;
+        border-bottom:1px solid #7f5eda;}
 	}
 }
