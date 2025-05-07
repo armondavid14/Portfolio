@@ -4,8 +4,10 @@ body {
     padding: 20px;
 }
 
-div {
+div #toolbar {
     background-color: white;
+    margin-left: 0;
+    margin-right: 0;
 }
 #toolbar {
     text-align: center;
