@@ -66,6 +66,7 @@ div .contactMe{
         margin: 0px;
     }
     body {
+        padding: 0px;
         width: 100%;
         font-size: medium;
     }
