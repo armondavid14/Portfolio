@@ -57,7 +57,7 @@ ul {
 }
 
 form {
-    width: 80%;
+    text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -79,6 +79,10 @@ form {
 		padding:.2em;
 		font-size:1.4em;
         border-bottom:1px solid #7f5eda;
+    }
+
+    form {
+        width: 80%;
     }
 }
 
