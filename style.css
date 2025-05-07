@@ -63,6 +63,9 @@ ul {
     nav a {
         font-size: medium;
     }
+    ul {
+        font-size: small;
+    }
     .intro {
         width: 100%;
     }
