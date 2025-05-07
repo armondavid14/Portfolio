@@ -6,7 +6,8 @@
 body {
     font-size: large;
     background-color: skyblue;
-    padding: 20px;
+    margin: 20px;
+    padding: 0px;
     width: 100%;
 }
 
