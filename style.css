@@ -52,4 +52,10 @@ nav a {
     body {
         width: 100%;
     }
+    nav a {
+        font-size: medium;
+    }
+    .intro {
+        width: 100%;
+    }
 }
