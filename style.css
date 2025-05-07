@@ -22,6 +22,10 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
+
 h4 {
     text-align: center;
 }
@@ -46,6 +50,10 @@ nav a {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+
+ul {
+    margin: 10px;
 }
 
 @media only screen and (max-width: 600px) {
