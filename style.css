@@ -33,6 +33,7 @@ h4 {
 nav a {
     display: flexbox;
     gap: 5px;
+    font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     text-decoration:none;
