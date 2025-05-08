@@ -56,7 +56,7 @@ ul {
     margin: 10px;
 }
 
-div .contactMe{
+div .contactMe form{
     margin: 15px;
     padding: 15px;
     text-align: center;
@@ -84,6 +84,9 @@ div .contactMe{
         border-bottom:1px solid #7f5eda;
     }
     form {
+        width: 80%;
+    }
+    div .contactMe{
         width: 80%;
     }
 }
