@@ -58,7 +58,7 @@ ul {
 
 div .contactMe {
     height: 100%;
-    margin: 0;
+    margin: 15px;
     display: flexbox;
     justify-content: center;
     padding: 10px;
