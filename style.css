@@ -56,7 +56,7 @@ ul {
     margin: 10px;
 }
 
-div .contactMe form {
+form {
     height: 100%;
     margin: 15px;
     display: flexbox;
@@ -86,9 +86,11 @@ div .contactMe form {
         border-bottom:1px solid #7f5eda;
     }
     form {
+        margin: 10px;
         width: 80%;
     }
     .contactMe{
+        margin: 10px;
         width: 80%;
     }
 }
