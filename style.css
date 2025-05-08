@@ -78,6 +78,9 @@ form {
     .intro {
         width: 100%;
     }
+    #toolbar {
+        padding: 10px;
+    }
     nav a {
         font-size: small;
         display:block;
