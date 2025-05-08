@@ -56,7 +56,7 @@ ul {
     margin: 10px;
 }
 
-div .contactMe {
+div .contactMe form {
     height: 100%;
     margin: 15px;
     display: flexbox;
