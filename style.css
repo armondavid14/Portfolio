@@ -56,10 +56,10 @@ ul {
     margin: 10px;
 }
 
-.contactMe form {
+div .contactMe {
     height: 100%;
     margin: 0;
-    display: flex;
+    display: flexbox;
     justify-content: center;
     padding: 10px;
 }
