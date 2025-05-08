@@ -38,7 +38,7 @@ nav a {
     text-decoration:none;
     text-align: center;
     background-color: #4321a1;
-	padding:10px;
+	padding:15px;
 }
 #wrapper {
     width: 70%;
@@ -57,6 +57,7 @@ ul {
 }
 
 div .contactMe{
+    margin: 15px;
     padding: 15px;
     text-align: center;
 }
