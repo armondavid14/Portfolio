@@ -57,10 +57,11 @@ ul {
 }
 
 div .contactMe{
+    margin: 15px;
     text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     * {
         padding: 0px;
         margin: 0px;
