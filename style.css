@@ -56,10 +56,12 @@ ul {
     margin: 10px;
 }
 
-div .contactMe form{
-    margin: 15px;
-    padding: 15px;
-    text-align: center;
+.contactMe {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -86,7 +88,7 @@ div .contactMe form{
     form {
         width: 80%;
     }
-    div .contactMe{
+    .contactMe{
         width: 80%;
     }
 }
