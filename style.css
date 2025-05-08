@@ -66,10 +66,6 @@ form {
 }
 
 @media (max-width: 768px) {
-    * {
-        padding: 0px;
-        margin: 0px;
-    }
     body {
         padding: 0px;
         width: 100%;
@@ -84,8 +80,8 @@ form {
     nav a {
         font-size: small;
         display:block;
-		padding:.2em;
-		font-size:1.4em;
+	padding:.2em;
+	font-size:1.4em;
         border-bottom:1px solid #7f5eda;
     }
     form {
