@@ -54,15 +54,16 @@ nav a {
 }
 
 ul {
+    background-color: #4520aa;
+    color: white;
     text-align: center;
     margin: 10px;
     width: auto;
 }
  
 ul div {
-    display: flexbox;
-    background-color: #4520aa;
-    color: white;
+    display: flex;
+    padding: 10px;
 }
 
 form {
