@@ -54,7 +54,6 @@ nav a {
 }
 
 ul {
-    align-items: center;
     text-align: center;
     margin: 10px;
     width: auto;
@@ -62,8 +61,7 @@ ul {
  
 ul div {
     display: flexbox;
-    width: 80%;
-    background-color: #4321a1;
+    background-color: #4520aa;
     color: white;
 }
 
