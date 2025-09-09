@@ -56,6 +56,11 @@ nav a {
 ul {
     margin: 10px;
 }
+ 
+ul div {
+    display: inline-block;
+    width: 30%;
+}
 
 form {
     height: 100%;
@@ -80,9 +85,12 @@ form {
     nav a {
         font-size: small;
         display:block;
-	padding:.2em;
-	font-size:1.4em;
+		padding:.2em;
+		font-size:1.4em;
         border-bottom:1px solid #7f5eda;
+    }
+    .delivery div {
+        width: 100%;
     }
     form {
         margin: 10px;
