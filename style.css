@@ -61,7 +61,7 @@ ul {
  
 ul div {
     display: flexbox;
-    width: 25%;
+    width: 80%;
     background-color: #4321a1;
     color: white;
 }
