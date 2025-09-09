@@ -54,6 +54,7 @@ nav a {
 }
 
 ul {
+    align-items: center;
     text-align: center;
     margin: 10px;
     width: auto;
