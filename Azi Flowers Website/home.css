@@ -1,0 +1,197 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+@font-face {
+    font-family: sans-serif;
+    src: url(Fonts/BwModelicaDEMO-BlackCondensed-BF65d6bd3c4ecdd.otf);
+}
+.toolbar {
+    width: auto;
+    display: inline-block;
+}
+.toolbar nav .logo img{
+    float: left;
+    width: 3.5%;
+}
+.toolbar nav img {
+    align-items: last baseline;
+    margin: 3px;
+    width: 3%;
+}
+.toolbar nav {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    text-align: right;
+    background-color: white; 
+}
+
+h1{
+    text-align: center;
+    font-size: 400%;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+   text-align: center; 
+}
+
+h4 {
+    text-align: center;
+}
+
+body {
+    width: auto;
+    background-color: #FF6EC7;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+button {
+    background-color: #007300;
+    color: white;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+.container {
+    width: 100%;
+    
+}
+
+.container p {
+    color: rgb(255, 0, 0);
+    font-style: o;
+}
+
+.container div {
+    background-color: #007300;
+    width: 45%;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+    
+}
+.container div img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.container div button {
+    background-color: #007300;
+    padding: 5px;
+}
+
+.aboutUs {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    font-size: large;
+}
+
+.aboutUs img {
+    width: 40%;
+    padding: 10px;
+    margin: 20px;
+    float: left;
+}
+
+.speciality {
+    width: 100%;
+    text-align: left;
+    margin: 20px;
+}
+
+.speciality ul {
+    display: inline-block;
+    width: 20%;
+    margin: 10px;
+}
+
+.gallery div img {
+    width: 25%;
+    float: left;
+}
+
+footer {
+    width: auto;
+    padding: 20px;
+    background-color: #007300;
+}
+
+.information {
+    display: inline-block;
+    width: 100%;
+}
+footer .contact {
+    display: inline-block;
+    padding: 10px;
+}
+
+footer .contact img {
+    background-color: #007300;
+    width: 10%;
+}
+
+footer .shopping {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    
+}
+footer img {
+    margin: 10px;
+    background-color: white;
+    width: 90px;
+}
+
+footer button {
+    background-color: #FF6EC7;
+    color: black;
+    padding: 5px;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 0px;
+        width: 100%;
+        font-size: medium;
+    }
+    .toolbar {
+        padding: 10px;
+    }
+    nav  {
+        width: auto;
+        
+    }
+    .toolbar nav .logo img {
+        
+        width: 12%;
+    }
+    .toolbar nav img {
+        align-items: last baseline;
+        width: 10%;
+    }
+    .container div{
+        width: 80%;
+        margin: 10px;
+    }
+    .container h3 {
+        font-size: medium;
+    }
+    .aboutUs p {
+        font-size: small;
+    }
+    .speciality{
+        width: 100%;
+    }
+}

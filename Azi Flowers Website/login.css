@@ -1,0 +1,110 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+@font-face {
+    font-family: sans-serif;
+    src: url(Fonts/BwModelicaDEMO-BlackCondensed-BF65d6bd3c4ecdd.otf);
+}
+
+.toolbar {
+    width: auto;
+    display: inline-block;
+}
+.toolbar nav .logo img{
+    float: left;
+    width: 3.5%;
+}
+.toolbar nav img {
+    align-items: last baseline;
+    margin: 3px;
+    width: 3%;
+}
+.toolbar nav {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    text-align: right;
+    background-color: white; 
+}
+
+body {
+    width: auto;
+    background-color: #FF6EC7;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+button {
+    padding: 2px;
+    margin: 20px;
+}
+
+footer {
+    width: auto;
+    padding: 20px;
+    background-color: #007300;
+}
+
+.information {
+    display: inline-block;
+    width: 100%;
+}
+footer .contact {
+    display: inline-block;
+    padding: 10px;
+}
+
+footer .shopping {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    
+}
+footer .contact img {
+    background-color: #007300;
+    width: 10%;
+}
+footer img {
+    margin: 10px;
+    background-color: white;
+    width: 90px;
+}
+
+footer button {
+    background-color: #FF6EC7;
+    color: black;
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 0px;
+        width: 100%;
+        font-size: medium;
+    }
+   .toolbar {
+        padding: 10px;
+    }
+    nav  {
+        width: auto;
+        
+    }
+    .toolbar nav .logo img {
+        
+        width: 12%;
+    }
+    .toolbar nav img {
+        align-items: last baseline;
+        width: 10%;
+    }
+    form {
+        width: 100%;
+    }
+    button {
+        padding: 0;
+        margin: 0;
+    }
+}
