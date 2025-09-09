@@ -61,6 +61,8 @@ ul {
 ul div {
     display: inline-block;
     width: 25%;
+    background-color: #4321a1;
+    color: white;
 }
 
 form {
