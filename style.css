@@ -53,7 +53,9 @@ nav a {
     margin-right: auto;
 }
 
-ul {
+div {
+    display: flex;
+    padding: 10px;
     background-color: #4520aa;
     color: white;
     text-align: center;
@@ -61,11 +63,6 @@ ul {
     width: auto;
 }
  
-ul div {
-    display: flex;
-    padding: 10px;
-}
-
 form {
     height: 100%;
     margin: 15px;
