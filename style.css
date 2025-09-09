@@ -54,12 +54,13 @@ nav a {
 }
 
 ul {
+    text-align: center;
     margin: 10px;
     width: auto;
 }
  
 ul div {
-    display: inline-block;
+    display: flexbox;
     width: 25%;
     background-color: #4321a1;
     color: white;
