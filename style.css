@@ -55,11 +55,12 @@ nav a {
 
 ul {
     margin: 10px;
+    width: auto;
 }
  
 ul div {
     display: inline-block;
-    width: 30%;
+    width: 25%;
 }
 
 form {
