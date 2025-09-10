@@ -65,7 +65,8 @@ nav a {
 }
 .projects div {
     width: 80%;
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
     padding: 10px;
     background-color: #4520aa;
     color: white;
@@ -112,6 +113,9 @@ footer {
     form {
         margin: 10px;
         width: 80%;
+    }
+    .projects {
+        flex-direction: column;
     }
     .contactMe{
         margin: 10px;
