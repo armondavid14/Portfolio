@@ -48,7 +48,7 @@ nav a {
 }
 .skills ul {
     text-align: center;
-    
+
 }
 .intro {
     text-align: center;
@@ -60,6 +60,7 @@ nav a {
     text-align: center;
 }
 .projects div {
+    width: 80%;
     display: flex;
     padding: 10px;
     background-color: #4520aa;
