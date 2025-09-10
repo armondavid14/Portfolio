@@ -42,10 +42,13 @@ nav a {
 	padding: 15px;
 }
 #wrapper {
-    text-align: center;
+    
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+}
+ul {
+    text-align: center;
 }
 .intro {
     text-align: center;
@@ -53,7 +56,9 @@ nav a {
     margin-left: auto;
     margin-right: auto;
 }
-
+.projects div h2 {
+    text-align: center;
+}
 .projects div {
     display: flex;
     padding: 10px;
