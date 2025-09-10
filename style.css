@@ -76,7 +76,6 @@ form {
     text-align: center;
     height: 100%;
     margin: 15px;
-    display: flexbox;
     justify-content: center;
     padding: 10px;
 }
