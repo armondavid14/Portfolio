@@ -86,6 +86,10 @@ ul {
     text-align: center;
 }
 
+footer {
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     body {
         padding: 0px;
