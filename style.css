@@ -73,6 +73,10 @@ form {
     padding: 10px;
 }
 
+ul {
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     body {
         padding: 0px;
