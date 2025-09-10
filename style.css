@@ -48,7 +48,7 @@ nav a {
 }
 .skills ul {
     text-align: center;
-    justify-content: center;
+    list-style-position: inside;
 }
 .intro {
     text-align: center;
