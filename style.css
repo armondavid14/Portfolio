@@ -42,13 +42,13 @@ nav a {
 	padding: 15px;
 }
 #wrapper {
-    
     width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
-ul {
+.skills ul {
     text-align: center;
+    
 }
 .intro {
     text-align: center;
