@@ -65,7 +65,7 @@ nav a {
 }
 .projects div {
     width: 80%;
-    display: inline-block;
+    display: flexbox;
     padding: 10px;
     background-color: #4520aa;
     color: white;
