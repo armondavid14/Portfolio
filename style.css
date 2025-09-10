@@ -42,6 +42,7 @@ nav a {
 	padding: 15px;
 }
 #wrapper {
+    text-align: center;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -64,6 +65,7 @@ nav a {
 }
  
 form {
+    text-align: center;
     height: 100%;
     margin: 15px;
     display: flexbox;
@@ -89,9 +91,6 @@ form {
 		padding:.2em;
 		font-size:1.4em;
         border-bottom:1px solid #7f5eda;
-    }
-    .delivery div {
-        width: 100%;
     }
     form {
         margin: 10px;
