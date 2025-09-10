@@ -57,6 +57,7 @@ nav a {
     margin-right: auto;
 }
 .projects {
+    text-align: center;
     width: 80%;
 }
 .projects h2 {
