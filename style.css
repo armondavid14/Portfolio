@@ -41,27 +41,33 @@ nav a {
     margin: 3px;
 	padding: 15px;
 }
+
 #wrapper {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
+
 .skills ul {
     text-align: center;
     list-style-position: inside;
 }
+
 .intro {
     text-align: center;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
+
 .projects {
     justify-content: center;
 }
+
 .projects h2 {
     text-align: center;
 }
+
 .projects div {
     display: flex;
     flex-direction: column;
@@ -116,7 +122,6 @@ footer {
     }
     .contactMe{
         margin: 10px;
-        width: 80%;
     }
 }
 
