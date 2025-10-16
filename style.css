@@ -1,11 +1,9 @@
-/* Base styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: skyblue;
     color: #333;
   }
   
-  /* Hero section */
   .hero {
     background: linear-gradient(135deg, #4321a1);
     color: rgb(235, 229, 229);
@@ -36,7 +34,10 @@ body {
     color: #2a2a2a;
     position: relative;
   }
-  
+  button img {
+    height: 20px;
+    width: 20px;
+  }
   .section-title::after {
     content: "";
     display: block;
