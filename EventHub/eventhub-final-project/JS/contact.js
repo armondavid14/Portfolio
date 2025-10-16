@@ -7,6 +7,6 @@ document
     e.preventDefault();
     emailjs
       .sendForm("service_s4t9tmw", "template_k2n11mf", this)
-      .then(() => alert("Booking request sent!"))
+      .then(() => alert("Message Sent!"))
       .catch((err) => alert("Failed: " + JSON.stringify(err)));
   });
