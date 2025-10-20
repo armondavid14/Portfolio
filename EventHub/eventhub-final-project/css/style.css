@@ -1,0 +1,287 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+header a {
+  text-decoration: none;
+}
+header {
+  padding: 0 20px;
+  background-color: rgb(85, 214, 176);
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+#brand {
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+#brand img {
+  height: 20px;
+  width: 20px;
+}
+#brand a {
+  color: rgb(6, 30, 53);
+}
+ul a {
+  color: #5a5858;
+  font-weight: bold;
+  text-decoration: none;
+}
+ul li {
+  padding: 5px;
+  margin-left: 10px;
+}
+ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+ul li:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+#book,
+#login {
+  border-radius: 5px;
+  padding: 5px 8px;
+}
+#book {
+  border: 1px solid rgb(66, 66, 224);
+}
+#book a {
+  font-weight: bold;
+  color: rgb(66, 66, 224);
+}
+#login {
+  border: 1px solid rgb(211, 50, 50);
+}
+#login a {
+  font-weight: bold;
+  color: rgb(211, 50, 50);
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+body {
+  z-index: 9999;
+  min-height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  overflow: auto;
+  position: relative;
+  margin: 0;
+  padding-bottom: 15rem;
+}
+.home {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: center;
+}
+.home div img {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.home div {
+  border-radius: 5px;
+  box-shadow: 2px 1px 1px 1px;
+  background-color: skyblue;
+  margin: 20px;
+  justify-content: center; 
+}
+.jobs div {
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 2px 1px 1px 1px;
+  margin: 20px;
+  width: 30%;
+  background-color: beige;
+}
+.jobs div img {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+button {
+  padding: 3px;
+  margin: 3px;
+  border-radius: 8px;
+  background-color: rgb(66, 80, 199);
+  font-weight: bold;
+  color: white;
+}
+button:hover {
+  background-color: rgb(113, 92, 206);
+}
+.jobDetails div {
+  border-radius: 5px;
+  box-shadow: 2px 1px 1px 1px;
+  display: inline-block;
+  margin: 20px;
+  width: 30%;
+  background-color: skyblue;
+}
+.jobDetails div img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.contact {
+  margin: auto;
+  background-color: bisque;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  width: 30%;
+  box-shadow: 2px 1px 1px 1px; 
+}
+#booking-form button, #contact-form  button {
+  background-color: rgb(66, 80, 199);
+  font-weight: bold;
+  color: white;
+}
+#questions {
+  border: none;
+  text-decoration: underline;
+  background-color: transparent;
+  color: blue;
+}
+.contactPage {
+  background-color: rgb(252, 252, 252);
+}
+.contactPage button {
+  background-color: rgb(152, 173, 233);
+}
+.loginPage {
+  background-color: rgb(255, 255, 255);
+}
+.loginForm {
+  margin: auto;
+  background-color: skyblue;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  width: 30%;
+  box-shadow: 2px 1px 1px 1px; 
+}
+footer {
+  padding: 50px;
+  display: flexbox;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(23, 69, 90);
+  color: white;
+}
+footer img {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+#toggle {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+#toggle div {
+  width: 35px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+.open .bar2 {
+  opacity: 0;
+}
+.open .bar3 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 8px);
+  transform: rotate(-45deg) translate(-6px, 8px);
+}
+.open .mobileNav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mobileNav {
+  background-color: #6cda5e;
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: 50vh;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+  ul li{
+    padding: .4rem;
+    margin: .2rem;
+  }
+  #toggle {
+    display: block;
+  }
+  .home {
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    max-width: fit-content;
+  }
+  .home div {
+    box-shadow: 1px .5px .5px .5px;
+  }
+  .jobs div {
+    display: inline-block;
+    width: 90%;
+    box-shadow: 1px .5px .5px .5px;
+  }
+  .jobDetails div {
+    width: 90%;
+    box-shadow: 1px .5px .5px .5px;
+  }
+  .contact {
+    width: 90%;
+    box-shadow: 1px .5px .5px .5px;
+  }
+  .loginForm {
+    width: 90%;
+    box-shadow: 1px .5px .5px .5px;
+  }
+  footer {
+    width: 100%;
+  }
+}
