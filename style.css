@@ -104,7 +104,15 @@ body {
     }
   
     .card img {
-      height: 150px;
+      height: 300px;
+    }
+    .card-body button {
+      height: 40px;
+    }
+    .card-body button img {
+      object-fit: contain;
+      height: 20px;
+      width: 20px;
     }
   }
 
