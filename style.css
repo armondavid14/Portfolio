@@ -1,126 +1,133 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: skyblue;
-    color: #333;
-  }
-  
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(187, 180, 180);
+  color: #333;
+}
+
+.hero {
+  background: linear-gradient(135deg, #4321a1);
+  color: rgb(235, 229, 229);
+  padding: 100px 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+.hero .btn:hover {
+  transform: scale(1.1);
+  transition: .2s;
+}
+#about {
+  border-radius: 8px;
+}
+img {
+  height: 310px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.section-title {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #2a2a2a;
+  position: relative;
+}
+button img {
+  height: 20px;
+  width: 20px;
+}
+.section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #7fabda;
+  margin: 10px auto 0;
+}
+#skills {
+  text-align: center;
+}
+#skills div {
+  display: inline-block;
+  margin: 10px;
+}
+#skills div div:hover{
+  transform: scale(1.05);
+  transition: .3s;
+}
+.card {
+  max-width: 416px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+form .form-label {
+  font-weight: 500;
+  color: #444;
+}
+form .btn-primary {
+  background-color: #2071c7;
+  border-color: #007bff;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+form .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004a9f;
+   transform: scale(1.05);
+  transition: .3s;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  padding: 40px 0;
+}
+
+@media (max-width: 768px) {
   .hero {
-    background: linear-gradient(135deg, #4321a1);
-    color: rgb(235, 229, 229);
-    padding: 100px 20px;
-    text-align: center;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 60px 10px;
   }
-  
+
   .hero h1 {
-    font-size: 3rem;
-    font-weight: bold;
+    font-size: 2rem;
   }
-  
-  .hero p {
-    font-size: 1.25rem;
-    margin-top: 10px;
-  }
-  img {
+
+  .card img {
     height: 300px;
-    object-fit: cover;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
   }
-  .section-title {
-    margin-top: 60px;
-    margin-bottom: 30px;
-    font-weight: bold;
-    color: #2a2a2a;
-    position: relative;
+  .card-body button {
+    height: 40px;
   }
-  button img {
+  .card-body button img {
+    object-fit: contain;
     height: 20px;
     width: 20px;
   }
-  .section-title::after {
-    content: "";
+  #skills div {
     display: block;
-    width: 60px;
-    height: 4px;
-    background: #7fabda;
-    margin: 10px auto 0;
   }
-  
-  #services h4 {
-    color: #6e9ed1;
-    margin-bottom: 10px;
-  }
-  
-  #services p {
-    color: #555;
-  }
-  
-  .card {
-    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-    border: none;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 24px rgba(0,0,0,0.2);
-  }
-  
-  .card-title {
-    color: #2c3e50;
-  }
-  
-  form .form-label {
-    font-weight: 500;
-    color: #444;
-  }
-  
-  form .btn-primary {
-    background-color: #2071c7;
-    border-color: #007bff;
-    font-weight: bold;
-    padding: 10px 20px;
-  }
-  
-  form .btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #004a9f;
-  }
-  
-  footer {
-    background-color: #000000;
-    color: white;
-    padding: 40px 0;
-  }
-
-  @media (max-width: 768px) {
-    .hero {
-      padding: 60px 10px;
-    }
-  
-    .hero h1 {
-      font-size: 2rem;
-    }
-  
-    .card img {
-      height: 300px;
-    }
-    .card-body button {
-      height: 40px;
-    }
-    .card-body button img {
-      object-fit: contain;
-      height: 20px;
-      width: 20px;
-    }
-  }
+}
 
 #about {
-    background-color: #ffffff;
-    padding: 60px 20px;
-  }
-  footer a:hover {
-    text-decoration: underline;
-  }
-  
+  background-color: #ffffff;
+  padding: 60px 20px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
