@@ -1,6 +1,5 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(187, 180, 180);
   color: #333;
 }
 
@@ -26,7 +25,10 @@ body {
   transition: .2s;
 }
 #about {
-  border-radius: 8px;
+  background: linear-gradient(135deg, #77f0ce);
+  color: rgb(0, 0, 0);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 img {
   height: 310px;
@@ -60,11 +62,16 @@ button img {
   display: inline-block;
   margin: 10px;
 }
+#skills div div div{
+  background-color: #77f0cc;
+  color: #020202;
+}
 #skills div div:hover{
   transform: scale(1.05);
   transition: .3s;
 }
 .card {
+  background-color: rgb(133, 201, 228);
   max-width: 416px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   border: none;
@@ -74,6 +81,11 @@ button img {
 .card:hover {
   transform: translateY(-10px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+#contact {
+  border-radius: 8px;
+  background-color:  #e7c8f3;
+  margin-bottom: 10px;
 }
 form .form-label {
   font-weight: 500;
