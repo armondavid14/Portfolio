@@ -106,11 +106,16 @@ body {
   border-top-right-radius: 5px;
 }
 .home div {
+  max-width: 700px;
   border-radius: 5px;
   box-shadow: 2px 1px 1px 1px;
   background-color: skyblue;
   margin: 20px;
-  justify-content: center; 
+  justify-content: center;
+}
+.home div:hover {
+  transform: scale(1.03);
+  transition: 0.2s;
 }
 .jobs div {
   display: inline-block;
@@ -120,12 +125,17 @@ body {
   width: 30%;
   background-color: beige;
 }
+
 .jobs div img {
   width: 100%;
   object-fit: cover;
   overflow: hidden;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+}
+.jobs div:hover {
+  transform: scale(1.03);
+  transition: 0.2s;
 }
 button {
   padding: 3px;
@@ -137,6 +147,8 @@ button {
 }
 button:hover {
   background-color: rgb(113, 92, 206);
+  transform: scale(1.1);
+  transition: 0.2s;
 }
 .jobDetails div {
   border-radius: 5px;
@@ -150,6 +162,10 @@ button:hover {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
+.jobDetails div:hover {
+  transform: scale(1.03);
+  transition: 0.2s;
+}
 .contact {
   margin: auto;
   background-color: bisque;
@@ -157,9 +173,10 @@ button:hover {
   text-align: center;
   padding: 10px;
   width: 30%;
-  box-shadow: 2px 1px 1px 1px; 
+  box-shadow: 2px 1px 1px 1px;
 }
-#booking-form button, #contact-form  button {
+#booking-form button,
+#contact-form button {
   background-color: rgb(66, 80, 199);
   font-weight: bold;
   color: white;
@@ -186,7 +203,7 @@ button:hover {
   text-align: center;
   padding: 10px;
   width: 30%;
-  box-shadow: 2px 1px 1px 1px; 
+  box-shadow: 2px 1px 1px 1px;
 }
 footer {
   padding: 50px;
@@ -248,9 +265,9 @@ footer img {
   header nav {
     display: none;
   }
-  ul li{
-    padding: .4rem;
-    margin: .2rem;
+  ul li {
+    padding: 0.4rem;
+    margin: 0.2rem;
   }
   #toggle {
     display: block;
@@ -262,24 +279,24 @@ footer img {
     max-width: fit-content;
   }
   .home div {
-    box-shadow: 1px .5px .5px .5px;
+    box-shadow: 1px 0.5px 0.5px 0.5px;
   }
   .jobs div {
     display: inline-block;
     width: 90%;
-    box-shadow: 1px .5px .5px .5px;
+    box-shadow: 1px 0.5px 0.5px 0.5px;
   }
   .jobDetails div {
     width: 90%;
-    box-shadow: 1px .5px .5px .5px;
+    box-shadow: 1px 0.5px 0.5px 0.5px;
   }
   .contact {
     width: 90%;
-    box-shadow: 1px .5px .5px .5px;
+    box-shadow: 1px 0.5px 0.5px 0.5px;
   }
   .loginForm {
     width: 90%;
-    box-shadow: 1px .5px .5px .5px;
+    box-shadow: 1px 0.5px 0.5px 0.5px;
   }
   footer {
     width: 100%;
