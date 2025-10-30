@@ -37,6 +37,13 @@ img {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
+#about img {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+}
 .section-title {
   margin-top: 60px;
   margin-bottom: 30px;
@@ -102,7 +109,7 @@ button img {
 #contact input, #contact textarea {
   padding: 10px;
   box-sizing: border-box;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
 }
 form .form-label {
   font-weight: 500;
@@ -168,4 +175,3 @@ footer img {
 footer a:hover {
   text-decoration: underline;
 }
-
