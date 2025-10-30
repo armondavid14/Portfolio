@@ -183,7 +183,7 @@ button:hover {
 }
 #questions {
   border: none;
-  text-decoration: underline;
+  text-decoration: none;
   background-color: transparent;
   color: blue;
 }
