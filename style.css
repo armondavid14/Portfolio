@@ -51,6 +51,9 @@ img {
   color: #080808;
   position: relative;
 }
+button {
+  border-radius: 3px;
+}
 button img {
   height: 20px;
   width: 20px;
@@ -165,3 +168,4 @@ footer img {
 footer a:hover {
   text-decoration: underline;
 }
+
