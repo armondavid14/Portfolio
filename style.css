@@ -1,6 +1,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #333;
+  color: #ffffff;
+  background-color: #2e2d2d;
 }
 
 .hero {
@@ -25,7 +26,7 @@ body {
   transition: .2s;
 }
 #about {
-  background: linear-gradient(135deg, #77f0ce);
+  background: linear-gradient(135deg, #feffff);
   color: rgb(0, 0, 0);
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
@@ -40,7 +41,14 @@ img {
   margin-top: 60px;
   margin-bottom: 30px;
   font-weight: bold;
-  color: #2a2a2a;
+  color: #fff6f6;
+  position: relative;
+}
+.inner-section-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #080808;
   position: relative;
 }
 button img {
@@ -63,7 +71,7 @@ button img {
   margin: 10px;
 }
 #skills div div div{
-  background-color: #77f0cc;
+  background-color: #ffffff;
   color: #020202;
 }
 #skills div div:hover{
@@ -84,7 +92,7 @@ button img {
 }
 #contact {
   border-radius: 8px;
-  background-color:  #e7c8f3;
+  background-color:  #dbd4d4;
   margin-bottom: 10px;
 }
 form .form-label {
@@ -110,6 +118,9 @@ footer {
   color: white;
   padding: 40px 0;
 }
+footer img {
+  height: 30px;
+}
 
 @media (max-width: 768px) {
   .hero {
@@ -119,7 +130,9 @@ footer {
   .hero h1 {
     font-size: 2rem;
   }
-
+  #projects {
+    width: 100%;
+  }
   .card img {
     height: 300px;
   }
@@ -133,6 +146,9 @@ footer {
   }
   #skills div {
     display: block;
+  }
+  #contact {
+    margin: 20px;
   }
 }
 
