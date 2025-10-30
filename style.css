@@ -92,12 +92,18 @@ button img {
 }
 #contact {
   border-radius: 8px;
-  background-color:  #dbd4d4;
-  margin-bottom: 10px;
+  background-color:  #ffffff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#contact input, #contact textarea {
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
 }
 form .form-label {
   font-weight: 500;
-  color: #444;
+  color: #000000;
 }
 form .btn-primary {
   background-color: #2071c7;
