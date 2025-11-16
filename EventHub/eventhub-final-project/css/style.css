@@ -75,6 +75,12 @@ h1 {
   text-align: center;
   font-weight: bold;
 }
+#banner {
+  height: 520px;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
 img {
   height: 340px;
   width: 100%;
@@ -269,6 +275,12 @@ footer img {
     padding: 0.4rem;
     margin: 0.2rem;
   }
+  #banner {
+    max-height: 350px;
+    width: 143%;
+    object-fit: cover;
+    overflow: hidden;
+  }
   #toggle {
     display: block;
   }
@@ -277,8 +289,10 @@ footer img {
     width: 100%;
     justify-content: center;
     max-width: fit-content;
+    
   }
   .home div {
+    
     box-shadow: 1px 0.5px 0.5px 0.5px;
   }
   .jobs div {
